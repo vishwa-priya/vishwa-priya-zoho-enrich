@@ -11,8 +11,10 @@ void main()
    for(i=0; i<t; i++)
    {
        c=num[0];
-       for(j=0;j<l-1;j++)
+       for(j=0; j<l-1; j++)
+       {
             num[j]=num[j+1];
+       }
         num[l-1]=c;
    }
 
