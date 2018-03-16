@@ -1,8 +1,14 @@
 #include<stdio.h>
+#include<conio.h>
 int main() 
 {
   int n,i,j,x,y;
   scanf("%d",&n);
+  if(n<=0&&n%2==0)
+  {
+    printf("Enter a positive odd number");
+    exit(0);
+  }
   int a[n][n];
   for(i=0;i<n;i++)
   {
