@@ -24,7 +24,7 @@ long int find_palindrome(int a[],int size,long int num)
         }
             else
             {
-                a[p]++;   // increment the middle number 
+                a[p]++;   // increment the middle digit 
             }
         }
         else   // if the number has even number of digits the middle two digits are considered 
@@ -38,7 +38,7 @@ long int find_palindrome(int a[],int size,long int num)
             else
             {
                 a[p]++;
-                a[q]++;   // increment the middle two numbers
+                a[q]++;   // increment the middle two digits
             }
         }
         for(i=0;i<size;i++)
